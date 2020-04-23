@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/admingong/public_html/introduce/
+    - /bin/cp * $DEPLOYPATH 
