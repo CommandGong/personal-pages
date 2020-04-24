@@ -2,8 +2,7 @@
 
 class Home extends BaseController{
     public function index(){   
-        echo "heresss?";
-        echo $_SERVER['CI_ENVIRONMENT'];
+        echo "heresss?"; 
         return view('welcome_message');
     }
     public function hello()
