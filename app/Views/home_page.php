@@ -1,3 +1,6 @@
+<?php
+ 
+?>
 <html>
     <head>
         <title>
@@ -21,33 +24,42 @@
          
         <div class="header-block container-fluid">
             <div class="header-title">
-                <h1 class="text-center">Hello I'm <span class="name">John Gong</span></h1>
-                <h1>I am a Full-stack Web Developer</h1>
+                <h1 class="text-center"><?php  echo $lang['greeting']; ?><span class="name"> <?php  echo $lang['name']; ?></span></h1>
+                <h1><?php  echo $lang['job_title']; ?></h1>
                 <div class="text-center">
-                    <h1 class="btn btn-transform">View my Work</h1>
+                    <h1 class="btn btn-transform"><?php  echo $lang['view_my_work']; ?></h1>
                 </div> 
             </div>
             
         </div> 
         <div class="container-fluid nav-section">
             <nav class="flex nav-bar">
-                <div>HOME</div>
-                <div>ABOUT</div>
-                <div>PORTFOLIO</div>
-                <div>BLOG</div>
-                <div>CONTACT</div>
+                <div><?php echo $lang['home']; ?></div>
+                <div><?php echo $lang['about']; ?></div>
+                <div><?php echo $lang['portfolio']; ?></div>
+                <div><?php echo $lang['blog']; ?></div>
+                <div><?php echo $lang['contact']; ?></div>
             </nav>
         </div>
         <div class="container">
             
             <div class="about-section ">
                 <div class="title flex jusstify-center">
-                    <h1>ABOUT</h1>
+                    <p><h1><?php echo $lang['about']; ?></h1></p> 
                 </div>
+              
                 <div class="row">
                     <div class="col-md-4 block">
                         <div class="title-image">
                             <img  class="block-img" src="public/image/laptop.png" alt="labtop">
+                        </div>
+                        <div class="content">
+                            <div class="content-title"> 
+                                
+                            </div>
+                            <div class="content-text"> 
+                                
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 block">
