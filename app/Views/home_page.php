@@ -46,6 +46,7 @@
             <div class="about-section ">
                 <div class="title flex jusstify-center">
                     <p><h1><?php echo $lang['about']; ?></h1></p> 
+                    <p><h6><?php echo $lang['about_me']; ?></h6></p> 
                 </div>
               
                 <div class="row">
@@ -55,10 +56,10 @@
                         </div>
                         <div class="content">
                             <div class="content-title"> 
-                                
+                                <h3><?php echo $lang['front_end_developer']; ?></h3>
                             </div>
                             <div class="content-text"> 
-                                
+                                <h6><?php echo $lang['front_end_description']?></h6>
                             </div>
                         </div>
                     </div>
@@ -66,10 +67,26 @@
                         <div class="title-image">
                             <img  class="block-img" src="public/image/printer.png" alt="labtop">
                         </div>
+                        <div class="content">
+                            <div class="content-title"> 
+                                <h3><?php echo $lang['back_end_developer']; ?></h3>
+                            </div>
+                            <div class="content-text"> 
+                                <h6><?php echo $lang['back_end_description']?></h6>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4 block">
                         <div class="title-image">
                             <img  class="block-img" src="public/image/webinar.png" alt="labtop">
+                        </div>
+                        <div class="content">
+                            <div class="content-title"> 
+                                <h3><?php echo $lang['team_player']; ?></h3>
+                            </div>
+                            <div class="content-text"> 
+                                <h6><?php echo $lang['team_player_description']?></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
