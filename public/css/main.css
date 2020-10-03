@@ -58,7 +58,9 @@
 
 .about-section .block {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
 }
 
 .title-image .block-img{
